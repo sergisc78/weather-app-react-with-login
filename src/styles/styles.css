@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #333333;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd1818, #333333);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+
+
+}
+
+/* NAVBAR */
+
+nav {
+  height: 90px;
+}
+
+.nav-link.active {
+  color: black;
+  font-size: 25px;
+}
+
+.nav-link.user-icon {
+  margin-left: auto;
+  margin-right: 15px;
+
+}
+
+/* SEARCHCOMPONENT */
+
+.container.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+button.search {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+
+
+/* SEARCHCOMPONENT CARD */
+
+.card.text {
+  max-width: 20rem;
+}
+
+.card-header,
+.card-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
