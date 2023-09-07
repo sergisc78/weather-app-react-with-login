@@ -1,4 +1,8 @@
-# React + Vite
+# WEATHER  API APP :
+
+- FRONTEND -> REACT+ VITE
+- BACKEND-> FIREBASE
+- STYLES -> CSS, BOOTSTRAP AND TAILWIND CSS
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
